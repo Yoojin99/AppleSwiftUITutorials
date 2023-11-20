@@ -12,6 +12,7 @@
 		394D06A12B0B96DC00D3051F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394D06A02B0B96DC00D3051F /* Assets.xcassets */; };
 		394D06A42B0B96DC00D3051F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394D06A32B0B96DC00D3051F /* Preview Assets.xcassets */; };
 		394D06AB2B0B9D4D00D3051F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D06AA2B0B9D4D00D3051F /* CircleImage.swift */; };
+		394D06AD2B0BA2B100D3051F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D06AC2B0BA2B100D3051F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		394D06A02B0B96DC00D3051F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394D06A32B0B96DC00D3051F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		394D06AA2B0B9D4D00D3051F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		394D06AC2B0BA2B100D3051F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				394D06A02B0B96DC00D3051F /* Assets.xcassets */,
 				394D06A22B0B96DC00D3051F /* Preview Content */,
 				394D06AA2B0B9D4D00D3051F /* CircleImage.swift */,
+				394D06AC2B0BA2B100D3051F /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				394D069F2B0B96DA00D3051F /* ContentView.swift in Sources */,
+				394D06AD2B0BA2B100D3051F /* MapView.swift in Sources */,
 				394D069D2B0B96DA00D3051F /* LandmarksApp.swift in Sources */,
 				394D06AB2B0B9D4D00D3051F /* CircleImage.swift in Sources */,
 			);
