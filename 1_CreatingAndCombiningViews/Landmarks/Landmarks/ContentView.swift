@@ -11,6 +11,8 @@ import SwiftUI
 struct ContentView: View { // View 프로토콜 채택
     var body: some View {
         Text("Hello SwiftUI!")
+            .font(.title) // modifiers. each returns a new view
+            .foregroundStyle(.black)
     }
 }
 
