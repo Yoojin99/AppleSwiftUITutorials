@@ -7,7 +7,10 @@
 
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable // SU 는 observable property 가 변하고 view의 body가 해당 프로퍼티를 직접 읽을 때만 view 를 업데이트함
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
