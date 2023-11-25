@@ -9,9 +9,9 @@ import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        List {
-            LandmarkRow(landmark: landmarks[0])
-            LandmarkRow(landmark: landmarks[1])
+        // identifiable data. id 를 직접 주입하거나 identifiable 프로토콜을 채택하게 하거나
+        List(landmarks) { landmark in
+            LandmarkRow(landmark: landmark)
         }
     }
 }
