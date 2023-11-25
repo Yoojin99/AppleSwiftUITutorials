@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    @State private var showFavoritesOnly = true
+    @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark] {
         landmarks.filter { landmark in
@@ -18,12 +18,19 @@ struct LandmarkList: View {
     
     var body: some View {
         NavigationSplitView {
-            // identifiable data. id 를 직접 주입하거나 identifiable 프로토콜을 채택하게 하거나
-            List(filteredLandmarks) { landmark in
-                NavigationLink {
-                    LandmarkDetail(landmark: landmark) // destination
-                } label: {
-                    LandmarkRow(landmark: landmark)
+            List {
+                Toggle(isOn: $showFavoritesOnly, label: {
+                    Text("Favorites Only")
+                })
+                
+                // 1. static + dynamic view 결합
+                // 2. 둘 이상의 다른 dynamic view 그룹을 묶을 때
+                ForEach(filteredLandmarks) { landmark in
+                    NavigationLink {
+                        LandmarkDetail(landmark: landmark) // destination
+                    } label: {
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
             }
             .navigationTitle("Landmarks")
