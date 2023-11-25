@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @Environment(ModelData.self) var modelData // environment(_:) 가 부모에 적용된 한 자동으로 값을 가져옴
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark] {
-        landmarks.filter { landmark in
+        modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
@@ -42,4 +43,5 @@ struct LandmarkList: View {
 
 #Preview {
     LandmarkList()
+        .environment(ModelData())
 }

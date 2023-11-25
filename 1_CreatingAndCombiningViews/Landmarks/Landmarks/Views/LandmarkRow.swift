@@ -29,7 +29,7 @@ struct LandmarkRow: View {
 
 #Preview(body: {
     Group { // 뷰 컨텐츠를 그룹핑하는 컨테이너. subview 를 stacking 함
-        LandmarkRow(landmark: landmarks[0])
-        LandmarkRow(landmark: landmarks[1])
+        LandmarkRow(landmark: ModelData().landmarks[0])
+        LandmarkRow(landmark: ModelData().landmarks[1])
     }
 })

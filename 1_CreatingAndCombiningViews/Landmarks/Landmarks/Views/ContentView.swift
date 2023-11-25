@@ -16,4 +16,5 @@ struct ContentView: View { // View 프로토콜 채택
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }
