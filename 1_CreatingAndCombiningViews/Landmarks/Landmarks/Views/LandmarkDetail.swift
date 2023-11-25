@@ -8,39 +8,41 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    var landmark: Landmark
+    
     var body: some View {
-        VStack {
-            MapView()
+        ScrollView {
+            MapView(coordinate: landmark.locationCoordinate)
                 .frame(height: 300) // width 는 자동으로 설정됨
             
-            CircleImage()
+            CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) { // default: center
-                Text("Turtle Rock")
+                Text(landmark.name)
                     .font(.title) // modifiers. each returns a new view
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text(landmark.park)
                     Spacer() // use the full width of device. parent view 의 모든 공간을 쓰도록 spacer view를 담고 있는 view 를 확장함
-                    Text("California")
+                    Text(landmark.state)
                 }
                 .font(.subheadline) // stack 내 모든 요소에 적용됨
                 .foregroundStyle(.secondary)
                 
                 Divider()
                 
-                Text("About Turtle Rock")
+                Text("About \(landmark.name)")
                     .font(.title2)
-                Text("Descriptive text goes here.")
+                Text(landmark.description)
             }
             .padding()
-            
-            Spacer()
         }
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline) // navigation stack 안에 있을 때 유효
     }
 }
 
 #Preview {
-    LandmarkDetail()
+    LandmarkDetail(landmark: landmarks[0])
 }

@@ -13,7 +13,7 @@ struct LandmarkList: View {
             // identifiable data. id 를 직접 주입하거나 identifiable 프로토콜을 채택하게 하거나
             List(landmarks) { landmark in
                 NavigationLink {
-                    LandmarkDetail() // destination
+                    LandmarkDetail(landmark: landmark) // destination
                 } label: {
                     LandmarkRow(landmark: landmark)
                 }
