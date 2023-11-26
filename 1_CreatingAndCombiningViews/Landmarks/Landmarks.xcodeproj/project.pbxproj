@@ -60,6 +60,8 @@
 		394D07172B1363A500D3051F /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 394D06CF2B1235DC00D3051F /* hikeData.json */; };
 		394D07182B1363A500D3051F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D06E32B132D1100D3051F /* Profile.swift */; };
 		394D071A2B136C7300D3051F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D07192B136C7300D3051F /* LandmarkDetail.swift */; };
+		394D071C2B13703100D3051F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D071B2B13703100D3051F /* NotificationView.swift */; };
+		394D071E2B1370F500D3051F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D071D2B1370F500D3051F /* NotificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,9 @@
 		394D07012B1362AA00D3051F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394D07042B1362AA00D3051F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		394D07192B136C7300D3051F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		394D071B2B13703100D3051F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		394D071D2B1370F500D3051F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		394D071F2B1372E700D3051F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +310,9 @@
 				394D07012B1362AA00D3051F /* Assets.xcassets */,
 				394D07032B1362AA00D3051F /* Preview Content */,
 				394D07192B136C7300D3051F /* LandmarkDetail.swift */,
+				394D071B2B13703100D3051F /* NotificationView.swift */,
+				394D071D2B1370F500D3051F /* NotificationController.swift */,
+				394D071F2B1372E700D3051F /* PushNotificationPayload.apns */,
 			);
 			path = "WatchLandmarks Watch App";
 			sourceTree = "<group>";
@@ -472,8 +480,10 @@
 				394D07112B1363A500D3051F /* ModelData.swift in Sources */,
 				394D070F2B1363A500D3051F /* LandmarkRow.swift in Sources */,
 				394D070E2B1363A500D3051F /* CircleImage.swift in Sources */,
+				394D071E2B1370F500D3051F /* NotificationController.swift in Sources */,
 				394D07132B1363A500D3051F /* Landmark.swift in Sources */,
 				394D071A2B136C7300D3051F /* LandmarkDetail.swift in Sources */,
+				394D071C2B13703100D3051F /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
