@@ -38,6 +38,7 @@
 		394D06E72B133C6400D3051F /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D06E62B133C6400D3051F /* ProfileHost.swift */; };
 		394D06E92B133CB100D3051F /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D06E82B133CB100D3051F /* ProfileSummary.swift */; };
 		394D06EB2B133D4B00D3051F /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D06EA2B133D4B00D3051F /* HikeBadge.swift */; };
+		394D06ED2B1342A600D3051F /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D06EC2B1342A600D3051F /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		394D06E62B133C6400D3051F /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		394D06E82B133CB100D3051F /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		394D06EA2B133D4B00D3051F /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		394D06EC2B1342A600D3051F /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				394D06E62B133C6400D3051F /* ProfileHost.swift */,
 				394D06E82B133CB100D3051F /* ProfileSummary.swift */,
+				394D06EC2B1342A600D3051F /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				394D06D22B12362400D3051F /* Hike.swift in Sources */,
 				394D06CB2B122FD200D3051F /* RotatedBadgeSymbol.swift in Sources */,
 				394D06C92B122E1E00D3051F /* BadgeSymbol.swift in Sources */,
+				394D06ED2B1342A600D3051F /* ProfileEditor.swift in Sources */,
 				394D06BD2B11D5DE00D3051F /* LandmarkList.swift in Sources */,
 				394D06DB2B12377900D3051F /* HikeView.swift in Sources */,
 				394D06BF2B11D76B00D3051F /* LandmarkDetail.swift in Sources */,
