@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  Landmarks
+//  WatchLandmarks Watch App
 //
-//  Created by YJ on 11/25/23.
+//  Created by YJ on 11/27/23.
 //
 
 import SwiftUI
@@ -35,7 +35,6 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         } detail: {
             Text("Select a Landmark") // 선택한 후에 나타나는 view의 placeholder. iPhone 에서는 필요없지만 iPad 에서는 선택전에 detail pane 이 보일 수도 있음
         }
@@ -46,3 +45,4 @@ struct LandmarkList: View {
     LandmarkList()
         .environment(ModelData())
 }
+
