@@ -81,6 +81,7 @@
 		394D07432B14D67A00D3051F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D07422B14D67A00D3051F /* LandmarkList.swift */; };
 		394D07452B14DA5900D3051F /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D07442B14DA5900D3051F /* LandmarkCommands.swift */; };
 		394D07462B14DA6D00D3051F /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D07442B14DA5900D3051F /* LandmarkCommands.swift */; };
+		394D07482B14DF4300D3051F /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D07472B14DF4300D3051F /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		394D073F2B14D1A300D3051F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		394D07422B14D67A00D3051F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		394D07442B14DA5900D3051F /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		394D07472B14DF4300D3051F /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +373,7 @@
 				394D072C2B14CE6A00D3051F /* Preview Content */,
 				394D073F2B14D1A300D3051F /* LandmarkDetail.swift */,
 				394D07442B14DA5900D3051F /* LandmarkCommands.swift */,
+				394D07472B14DF4300D3051F /* LandmarkSettings.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -585,6 +588,7 @@
 			files = (
 				394D07342B14D07400D3051F /* Hike.swift in Sources */,
 				394D07372B14D07400D3051F /* LandmarksApp.swift in Sources */,
+				394D07482B14DF4300D3051F /* LandmarkSettings.swift in Sources */,
 				394D07292B14CE6600D3051F /* ContentView.swift in Sources */,
 				394D073B2B14D07400D3051F /* FavoriteButton.swift in Sources */,
 				394D07452B14DA5900D3051F /* LandmarkCommands.swift in Sources */,
